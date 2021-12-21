@@ -1,0 +1,426 @@
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Oswald', sans-serif !important;
+font-size: 24px !important;
+text-transform: uppercase;
+letter-spacing: 5px;
+margin-top, margin-bottom: 50px !important;
+padding-bottom: 10px;
+}
+
+h2{
+color: #FFCDB9;
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#whattoknowparagraph {
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+#lizinkNav {
+    background-color: #282828 !important;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+#bioSection {
+    display: flex;
+    flex-wrap: row;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    justify-content: center;
+    color: white;
+    background-color: #282828; 
+}
+
+#bio {
+    display:flex;
+    flex-wrap: row;
+}
+
+#bioText {
+    width: 400px;
+    margin-left: 120px;
+    margin-right: 150px;
+    padding-left: 20px;
+    padding-right: 100px;
+    
+}
+.learnMore {
+   align-items: center;
+    text-align: right;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+#whatToKnowSection {
+    display:flex;
+    flex-wrap: row;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    background-color: #484D47; 
+}
+
+#whatToKnowText {
+    margin: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.learnMore a{
+    color:#FFCDB9;
+}
+
+#myWorkSection{
+    background-color: #282828; 
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+#myWorkContent {
+    padding: 100px;
+}
+
+#myWork {
+    padding-left: 200px;
+    padding-right: 200px;
+    display:flex;
+    flex-wrap: row;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    text-align: right;
+}
+
+#seeMore {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.col{
+    margin: 10px;
+}
+
+#footer {
+    padding: 50px;
+    background-color:#484D47;
+    color: white;
+}
+
+#socialMedia {
+    padding-left: 250px;
+    ;
+}
+
+.socialMediaIcon {
+    padding-bottom: 45px;
+}
+
+#footerLogo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-content: center;
+    align-text: center;
+}
+
+button {
+    background-color: #C8A695 !important;
+    text-color: #282828 !important;
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    font-size: 14px !important;
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+input { 
+    margin-right: 5px !important;
+    font-family: 'EB Garamond', serif !important;
+    font-size: 16px !important;
+    letter-spacing: 1px;
+}
+
+
+span {
+    overflow: hidden !important;
+    height: 56px !important;
+    width: 30% !important;
+    margin: 0px !important;
+    color: #282828 !important;
+    background: white !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 18px !important;
+    letter-spacing: 2px !important;
+    overflow: hidden !important;
+    text-align: center !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    padding-left:10px !important;
+    outline: none !important;
+    
+
+}
+.schedule {
+    position: relative !important;
+    flex: 1 1 0% !important;
+    padding: 0px !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    height: 56px !important;
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    margin: 0px !important;
+    padding: 12px 10px !important;
+    color: black !important;
+    font-family: 'Oswald', sans-serif !important;
+    text-align: center;
+    letter-spacing: 2px !important;
+    font-size: 18px !important;
+    cursor: pointer !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    
+}
+
+#bookConsultationButton {
+    margin-top: 10px;
+    padding-right:40px;
+    padding-left:40px;
+    width: 100%;
+    font-size: 18px !important;
+}
+
+
+#footerBottom {
+    background-color: #282828;
+    padding-left: 290px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footerList {
+    display: flex;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.footerItem {
+    padding-right: 50px;
+}
+
+.footerItem a{
+    color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+.mobileHide {
+        display: block;
+    }
+
+.mobileShow {
+    display: none;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .navbar-toggler-icon, .navbar-toggler {
+        display: none !important;
+    }
+
+    #logo {
+            float: left;
+            margin: 0px;
+            padding-left: 30px;
+        }
+    
+    .menu {
+            float: right;
+            padding-right: 30px;
+            width: 50px;
+        }
+    
+    .mobileHide {
+            display: none !important;
+        }
+    
+    .mobileShow {
+        display: block;
+    }
+
+    #bioSection {
+        display: block;
+        padding-top: none !important;
+        margin: none;
+    }
+
+    #bio {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    #bioPic {
+        text-align: center;
+        margin: none;
+    }
+
+    #bioText {
+        width: 100vw;
+        margin: none;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+#checkAvailability {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#whatToKnowSection {
+    display:block;
+    padding-bottom: 50px;
+}
+
+#whatToKnowPic {
+    width: 100vw;
+}
+
+#whatToKnowText {
+    margin: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#learnMore {
+    padding-bottom:50px;
+}
+
+
+#myWorkSection{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+#myWorkContent {
+    padding: 100px;
+}
+
+#myWork {
+    padding-left: 200px;
+    padding-right: 200px;
+    display:flex;
+    flex-wrap: row;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    text-align: right;
+}
+
+#seeMore {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+#footer {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 50px;
+    background-color:#484D47;
+    color: white;
+    align-items: center;
+}
+
+#socialMedia {
+    padding-top: 50px;
+    padding-left: 250px;
+    align-items: center;
+}
+
+.socialMediaIcon {
+    padding-bottom: 25px;
+    padding-right: 25px;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.smMargin {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#footerLogo {
+    margin: none;
+    padding-top: none;
+    padding-bottom: 0px;
+    align-content: top;
+    align-text: none;
+    padding-left: 35px;
+}
+
+.mobileSocialMedia {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#footerBottom {
+    background-color: #282828;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerItem {
+    padding: 10px;
+}
+
+#footerList {
+    flex-direction: column;
+    font-size: 14px;
+    text-align: center;
+}
+
+}
+
